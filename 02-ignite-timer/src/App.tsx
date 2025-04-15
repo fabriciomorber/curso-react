@@ -1,6 +1,7 @@
 import { ThemeProvider } from "styled-components";
-import { Button } from "./components/Button.tsx";
-import {defaultTheme} from "./styles/themes/default.ts";
+import { Button } from "./components/Button";
+import {defaultTheme} from "./styles/themes/default";
+import {GlobalStyle} from "./styles/globals";
 
 
 export function App() {
@@ -11,6 +12,8 @@ export function App() {
       <Button variant="success" />
       <Button variant="danger" />
       <Button />
+
+      <GlobalStyle />
     </ThemeProvider>
   )
 }
