@@ -1,4 +1,4 @@
-import { Play } from 'phosphor-react'
+import { Play } from "phosphor-react"
 
 import {
   CountdownContainer,
@@ -8,7 +8,7 @@ import {
   Separator,
   StartCountdownButton,
   TaskInput,
-} from './styles'
+} from "./styles"
 
 export function Home() {
   return (
