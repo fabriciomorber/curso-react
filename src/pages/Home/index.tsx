@@ -11,7 +11,7 @@ import {
   StopCountdownButton,
 } from "./styles"
 // import { NewCycleForm } from "./components/NewCycleForm"
-import { Countdown } from "./components/Countdown"
+import { Countdown } from "./Components/Countdown"
 
 interface Cycle {
   id: string
